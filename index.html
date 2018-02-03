@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <script src="words.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body onload="sentence()">
+  <div class="container">
+    <!--   Heading   -->
+    <div class="row">
+      <h1> Meme Generator</h1>
+    </div>
+    <!--   Options   -->
+    <div class="row">
+      <button onclick="sentence()">Refresh</button>
+      <button id="mode" class="PIC" onclick="toggleMode()">
+        <B>PIC</B> // GIF</button>
+      <button onclick="reactionImage()">reroll img</button>
+      <div class="checkbox">
+          <label><input id="checkbox1" type="checkbox" value="">UofT mode</label>
+        </div>
+     
+    </div>
+
+
+
+    <!-- Meme -->
+    <div class="row" style="margin-top:10px" >
+      <p id="sentence"></p>
+      <div id="image"></div>
+    </div>
+<hr>
+    <!-- Footer options -->
+
+    <div class="row">
+    
+    </div>
+    
+
+
+  </div>
+
+</body>
+<script>
+
+  // $(".nav").click(function () {
+
+  //   //we remove all the borders from all the buttons
+  //   $(".nav").removeClass("focus");
+
+  //   //Now we add the border to the button that's been clicked
+  //   $(this).addClass("focus");
+
+  // });
+
+    $('#checkbox1').change(function() {
+        if(this.checked) {
+           obj.push.apply(obj, uoftnouns);
+           place.push.apply(place,uoftplaces);
+           
+        }
+
+        else {
+            const filterObj = obj.filter(function(x) { 
+            return uoftnouns.indexOf(x) < 0;
+          });
+          const filterPlace = place.filter(function(x) { 
+            return uoftplaces.indexOf(x) < 0;
+          });
+
+          place = filterPlace;
+         
+        }
+          
+    });
+
+</script>
+
+</html>

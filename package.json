@@ -1,0 +1,14 @@
+{
+  "name": "memegen",
+  "version": "0.0.0",
+  "description": "meme generator for uoft memes",
+  "main": "req.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sumeeta farrukh",
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "license": "ISC"
+}

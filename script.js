@@ -5,7 +5,7 @@ function reactionImage() {
         var qRand = Math.floor(Math.random() * q.length);
         $.ajax({
             type: "GET",
-            url: "http://api.giphy.com/v1/gifs/search?q=" + q[qRand] + "&limit=200&api_key=H3f3RCwlJrH01TzhUECP0qe6iEXw0FcV",
+            url: "https://api.giphy.com/v1/gifs/search?q=" + q[qRand] + "&limit=200&api_key=H3f3RCwlJrH01TzhUECP0qe6iEXw0FcV",
             success: data => {
                 var rand = Math.floor(Math.random() * 200);
                 var imgurl = data.data[rand].id;

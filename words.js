@@ -10,7 +10,7 @@ starter2 = ["me when", "me before", "me walking in to"];
 subj = ["you", "bae", "someone","squad","he","your mom","they","she","ppl u hate","the professor","friends"];
 verb = ["see","pay","play",
 "hook up with","turn up with", "flirt with","hit on","hang out with",
-"pretend to like","pretend to care about", "party with", "meet up with","text","break up with","email", "call","obsessed with",
+"pretend to like","pretend to care about", "party with", "meet up with","text","break up with","email", "call","obsess over",
 "be", "have","do","say","love","go","get","make","take","use",
 "find","want", "give","work on","try",
 "talk about","think about","provide","cry about","ask about","dream about","pray for", "post about",

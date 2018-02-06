@@ -35,16 +35,15 @@ obj = ["haters", "friends", "my friends", "your friends","family",
 "homework","essays","exams","the final", "couples",
 "grades","my grades","my gpa", "a job", "unemployment", "employment","the semester",
 "self esteem", "anxiety","depression", "relationships", "attitude",
-"capitalism", "alcohol","jokes", "weed", "tide pods", "millenials", "avocados",
+"capitalism", "alcohol","jokes", "weed", "millenials", "avocados",
 "rent", "men", "women", "human rights","love life","old people", "babies",
-"people you hate", "the illuminati","school","people you love", "the alt right","an ambulance",
-"water", "pizza", "god","jesus", "squad","TAs","food","kids", "free food", "my parents", "your parents", "parents",
+"people you hate", "the illuminati","school","shrek","people you love", "the alt right","an ambulance",
+"water", "pizza", "god","jesus", "squad","TAs","food","kids", "free food","parents",
 "cats","puppies", "therapy dogs", "pet","social life", "iridocyclitis","government", "president", "donald trump",
 "hilary clinton","obama", "emails", "cops","text","class","neighbors", 
-"cashier","customers","wallet","videogames", "room",  "bae", "nap",
-"who i am", "who you are",  "memes","crush","partner", "boyfriend", "girlfriend","snapchat","fake news",
-
-
+"cashier","customers","wallet","videogames", "room",  "bae", "nap","money",
+"who i am", "who you are",  "memes","crush","partner", "boyfriend", "girlfriend","snapchat","fake news", 
+"conspiracy theories", "youtube"
 ];
 
 adj = ["depressed","on the internet","high", "tired",
@@ -58,12 +57,14 @@ adverb=["unexpectedly","accidentally", "always",
   "kinda","absolutely","just","literally","randomly","dramatically",
    "really","finally","actually", "can't even","personally",];
 
+
+
 uoftplaces = ["at robarts",  "at vic", "Accessibility services"];
 
-place = ["in bed", "at home","irl", "on facebook","at the park", "on the bus", "in class"];
+place = ["in bed", "at home","irl", "on facebook","at the park", "on the bus", "in class", "at 3am", "on tinder"];
 
 add = ["lol","lmao","omg", "bruh", "af"]; 
-times = [""];
+times = ["valentines day","christmas","halloween", "easter","spring break", "new years"];
 dialogue = [""];
 
 

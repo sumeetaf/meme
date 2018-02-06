@@ -195,6 +195,9 @@ else {
         (strt + " "+ sbj +" " + adv + " " + tv + " " + o),
         (strt +" you "+ v + " "+ posNoun+" "+ o),
         (strt +" you help" + " "+sbj+" "+ iv),
+        ("me pretending to "+v+" "+o+" "+p),
+        ("me pretending to "+v+" "+o),
+        ("when you remember that one time "+p+" that you "+v+" "+o)
         //("being "+a+" with "+o)
 
         // ("when u wanna " + v + " " + o + " but " + o + " " + v + " you"),
@@ -210,9 +213,9 @@ else {
     ];
     var structure = Math.floor(Math.random() * skels.length);
 
-    content = skels[skels.length - 2];
+    content = skels[skels.length - 1];
     //content = skels[5];
-    content = skels[structure];
+    //content = skels[structure];
 
     document.getElementById('sentence').innerHTML = content;
     reactionImage();

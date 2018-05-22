@@ -33,7 +33,7 @@ uoftnouns = ["jordan peterson"];
 
 obj = ["haters", "friends", "my friends", "your friends","family",
 "homework","essays","exams","the final", "couples",
-"grades","my grades","my gpa", "a job", "unemployment", "employment","the semester",
+"grades","my grades","my gpa", "a job", "unemployment", "employment","semester",
 "self esteem", "anxiety","depression", "relationships", "attitude",
 "capitalism", "alcohol","jokes", "weed", "millenials", "avocados",
 "rent", "men", "women", "human rights","love life","old people", "babies",
@@ -48,7 +48,7 @@ obj = ["haters", "friends", "my friends", "your friends","family",
 
 adj = ["depressed","on the internet","high", "tired",
 "drunk", "anxious", "confident", "smart","petty","salty",
-"lit", "nervous", "sad", "beautiful","broke", "antisocial",
+"lit", "nervous", "sad", "beautiful","clumsy","broke", "antisocial",
 "productive","motivated","happy","comfortable","uncomfortable",
 "busy","free", "irrelevant", "honest"];
 
